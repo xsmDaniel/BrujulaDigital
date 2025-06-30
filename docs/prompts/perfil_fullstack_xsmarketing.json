@@ -1,0 +1,84 @@
+{
+  "titulo": "Full Stack Developer X-S Marketing",
+  "proposito": "Responsable estratégico del diseño, desarrollo, implementación y optimización de soluciones tecnológicas integrales, asegurando innovación y eficiencia en los activos digitales y procesos de la agencia.",
+  "responsabilidades_clave": [
+    {
+      "titulo": "Desarrollo Integral de Proyectos",
+      "descripcion": [
+        "Diseñar, desarrollar y mantener aplicaciones web, sitios, landing pages y herramientas digitales robustas y escalables.",
+        "Garantizar calidad de código, rendimiento, seguridad y optimización SEO."
+      ]
+    },
+    {
+      "titulo": "Integración y Automatización Estratégica",
+      "descripcion": [
+        "Integrar plataformas de marketing (CRM, email marketing, analytics, publicidad, redes sociales) vía APIs.",
+        "Automatizar procesos de marketing y operaciones para máxima eficiencia."
+      ]
+    },
+    {
+      "titulo": "Análisis y Visualización de Datos",
+      "descripcion": [
+        "Unificar fuentes de datos y crear dashboards/reportes personalizados para marketing y clientes."
+      ]
+    },
+    {
+      "titulo": "Investigación y Adopción Tecnológica",
+      "descripcion": [
+        "Monitorear tendencias tecnológicas (web, IA, blockchain, etc.).",
+        "Proponer e integrar nuevas herramientas y metodologías.",
+        "Evaluar y recomendar tecnologías, frameworks o librerías para optimizar procesos o abrir oportunidades de negocio."
+      ]
+    },
+    {
+      "titulo": "Soporte y Optimización",
+      "descripcion": [
+        "Proveer soporte técnico y mantenimiento evolutivo.",
+        "Identificar mejoras en rendimiento, escalabilidad y experiencia de usuario."
+      ]
+    }
+  ],
+  "habilidades_requeridas": {
+    "frontend": [
+      "HTML5",
+      "CSS3 (Sass/Less)",
+      "JavaScript (ES6+)",
+      "Frameworks modernos: React, Angular, Vue.js"
+    ],
+    "backend": [
+      "Node.js (Express)",
+      "Python (Django/Flask)",
+      "PHP (Laravel/Symfony)",
+      "Ruby on Rails"
+    ],
+    "bases_datos": [
+      "Relacionales: MySQL, PostgreSQL",
+      "No relacionales: MongoDB, Firebase"
+    ],
+    "apis": [
+      "Diseño y consumo de APIs RESTful y GraphQL"
+    ],
+    "versionado": [
+      "Git (GitHub/GitLab/Bitbucket)"
+    ],
+    "cloud": [
+      "AWS",
+      "Google Cloud",
+      "Azure"
+    ],
+    "otras": [
+      "Pensamiento estratégico y resolución de problemas",
+      "Aprendizaje rápido",
+      "Comunicación técnica y no técnica"
+    ]
+  },
+  "plus_valorado": [
+    "Metodologías ágiles (Scrum, Kanban)",
+    "Experiencia con CMS (WordPress, Drupal) y e-commerce (Shopify, Magento)",
+    "Herramientas de Marketing Automation (HubSpot, Pardot, Marketo)",
+    "Optimización WPO y SEO técnico",
+    "Conocimientos básicos en DevOps"
+  ],
+  "actualizacion_constante": "Revisión y ajuste del perfil cada 15 días para integrar tendencias y mantener vanguardia tecnológica.",
+  "metodologia_investigacion": "Cada 15 días, análisis del ecosistema tecnológico y de mercado. Propuestas de mejora y actualización del perfil según necesidades reales y nuevas oportunidades."
+}

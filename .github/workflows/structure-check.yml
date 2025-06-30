@@ -1,0 +1,15 @@
+name: Verificar estructura del repo
+
+on: [push, pull_request]
+
+jobs:
+  structure-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Run structure check script
+        run: python check_repo_structure.py || python3 check_repo_structure.py

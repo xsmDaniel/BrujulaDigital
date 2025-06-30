@@ -1,0 +1,31 @@
+brujula-digital/
+│
+├── README.md
+├── CONTRIBUTING.md
+├── ISSUE_TEMPLATE.md
+│
+├── package.json
+├── .env.example
+│
+├── /src
+│   ├── /components         # Componentes UI (React/Vue/etc.)
+│   ├── /pages              # Páginas principales (Next.js/Nuxt)
+│   ├── /services           # Servicios, APIs, lógica de negocio
+│   ├── /utils              # Utilidades y helpers
+│   ├── /hooks              # Custom hooks (React)
+│   ├── /styles             # Hojas de estilo (CSS/Sass)
+│   └── /config             # Configuraciones, rutas, constantes
+│
+├── /public                 # Archivos estáticos, imágenes
+│
+├── /tests                  # Pruebas unitarias y de integración
+│
+├── /docs
+│   ├── prompts_brujula_digital_xsm.json    # Prompts para IA/bots
+│   ├── Bitacora_Resumen_Brujula_Digital_XSM.pdf # Resumen ejecutivo
+│   └── ...                  # Otra documentación y bitácoras
+│
+├── /scripts                # Scripts para automatizaciones o tareas
+│
+└── .github
+    └── ISSUE_TEMPLATE.md   # Plantillas de issues

@@ -1,0 +1,142 @@
+{
+  "nombre_proyecto": "Brújula Digital - X-S Marketing",
+  "version": "1.0.0-alpha",
+  "descripcion": "Estructura de servicios estratégicos y prompts asociados para la plataforma de automatización de marketing digital 'Brújula Digital'.",
+  "fecha_creacion": "2025-07-01",
+  "autores": [
+    "Equipo X-S Marketing",
+    "Gemini AI Assistant"
+  ],
+  "servicios_estrategicos_brújula_digital": [
+    {
+      "punto_cardinal": "NORTE",
+      "nombre_servicio": "Auditoría de Redes Sociales",
+      "taglines": [
+        "Tu Brújula de Inicio Digital.",
+        "El Mapa Claro de tu Presencia Social."
+      ],
+      "descripcion_general": "Servicio de diagnóstico inicial exhaustivo de la presencia en redes sociales, incluyendo un análisis preliminar de la competencia para definir un rumbo estratégico claro.",
+      "prompts_asociados": [
+        {
+          "nombre_prompt": "PROMPT_EJECUCION_AUDITORIA_RRSS_NORTE",
+          "descripcion_breve": "Guía la recolección de datos, análisis preliminar de RRSS y competencia, y generación de borrador de diagnóstico."
+        },
+        {
+          "nombre_prompt": "PROMPT_ANALISTA_WEB",
+          "descripcion_breve": "Instrucciones para el análisis numérico y de datos post-auditoría."
+        },
+        {
+          "nombre_prompt": "PROMPT_SOCIAL_MEDIA_MANAGER",
+          "descripcion_breve": "Instrucciones para el análisis cualitativo de contenido y estrategia de RRSS."
+        },
+        {
+          "nombre_prompt": "PROMPT_ESTRATEGIA_DIRECTOR_MARKETING",
+          "descripcion_breve": "Guía para la formulación de estrategia post-diagnóstico."
+        }
+      ]
+    },
+    {
+      "punto_cardinal": "ESTE",
+      "nombre_servicio": "Campañas Publicitarias Digitales Y/o Gestión de Redes Sociales",
+      "taglines": [
+        "Impulso Digital y Expansión de Marca.",
+        "Tu Motor de Visibilidad y Clientes."
+      ],
+      "descripcion_general": "Servicios enfocados en la acción, crecimiento y expansión a través de campañas publicitarias pagadas (especialistas en Meta Ads) y la gestión estratégica de la presencia orgánica en redes sociales.",
+      "prompts_asociados": [
+        {
+          "nombre_prompt": "PROMPT_PUBLICIDAD_META_ADS",
+          "descripcion_breve": "Instrucciones para la ejecución y optimización de campañas publicitarias en Meta Ads."
+        },
+        {
+          "nombre_prompt": "PROMPT_REDES_CM",
+          "descripcion_breve": "Instrucciones para la gestión diaria y la interacción en redes sociales."
+        },
+        {
+          "nombre_prompt": "PROMPT_CONTENIDOS_REDACTOR",
+          "descripcion_breve": "Instrucciones para la creación de contenido textual estratégico para redes y campañas."
+        },
+        {
+          "nombre_prompt": "PROMPT_VISUAL_META_ADS",
+          "descripcion_breve": "Instrucciones para el diseño de visuales para campañas publicitarias."
+        }
+      ]
+    },
+    {
+      "punto_cardinal": "SUR",
+      "nombre_servicio": "Diseño Web y Desarrollo de Sistemas a Medida",
+      "taglines": [
+        "La Fundación de tu Negocio Online.",
+        "Tu Plataforma Digital a la Medida."
+      ],
+      "descripcion_general": "Creación y optimización de la infraestructura digital propia del cliente, incluyendo sitios web, landing pages y sistemas personalizados para asegurar una presencia sólida y orientada a la conversión.",
+      "prompts_asociados": [
+        {
+          "nombre_prompt": "PROMPT_UX_UI",
+          "descripcion_breve": "Instrucciones para el diseño de experiencia de usuario e interfaz de plataformas web."
+        },
+        {
+          "nombre_prompt": "PROMPT_DISENADOR_GRAFICO",
+          "descripcion_breve": "Instrucciones para el desarrollo de activos gráficos para el diseño web y sistemas."
+        }
+        // Otros prompts relacionados con desarrollo web/sistemas a medida
+      ]
+    },
+    {
+      "punto_cardinal": "OESTE",
+      "nombre_servicio": "E-commerce",
+      "taglines": [
+        "Tu Tienda Online de Alto Rendimiento.",
+        "Ventas Sin Límites, Online y Global."
+      ],
+      "descripcion_general": "Servicios especializados en la implementación, gestión y optimización de plataformas de comercio electrónico, cubriendo desde pasarelas de pago hasta logística y gestión de inventarios para maximizar las ventas online.",
+      "prompts_asociados": [
+        {
+          "nombre_prompt": "PROMPT_ECOMMERCE_MANAGER",
+          "descripcion_breve": "Instrucciones para la gestión y optimización de plataformas de e-commerce."
+        }
+        // Otros prompts relacionados con estrategia y operación de e-commerce
+      ]
+    }
+  ],
+  "detalle_prompts": [
+    {
+      "nombre_prompt": "PROMPT_EJECUCION_AUDITORIA_RRSS_NORTE",
+      "servicio_estrategico_asociado": "NORTE: Auditoría de Redes Sociales",
+      "objetivo_principal": "Recopilar automáticamente la información pública esencial de las redes sociales del prospecto (URLs proporcionadas), realizar un análisis preliminar de la competencia identificada o sugerida, y generar un primer borrador de diagnóstico automatizado.",
+      "roles_interactuan": [
+        "Activador de Brújula Digital",
+        "Analista Web y de Datos",
+        "Social Media Manager",
+        "Director de Estrategia Digital"
+      ],
+      "datos_entrada_requeridos": [
+        "Nombre_Empresa",
+        "URL_Instagram",
+        "URL_Facebook",
+        "Objetivo_Principal_Cliente",
+        "Experiencia_Previa_Marketing",
+        "Competidores_Mencionados_Cliente (Opcional, puede ser lista de nombres/URLs)"
+      ],
+      "proceso_logica_ejecucion": [
+        "Paso 1: Validación de URLs (Automatizado): Verificar validez y accesibilidad pública de URLs de RRSS.",
+        "Paso 2: Extracción de Métricas Públicas (Automatizado): Obtener seguidores, interacciones, tipos de contenido de RRSS.",
+        "Paso 3: Identificación de Contenido Destacado (Automatizado): Analizar posts con mayor interacción.",
+        "Paso 4: Análisis Preliminar de Competencia (Automatizado/Asistido): Extraer datos básicos de RRSS/web de competidores mencionados o sugeridos.",
+        "Paso 5: Comparación con Benchmarks (Automatizado): Contrastar métricas propias y de competencia con benchmarks de la industria.",
+        "Paso 6: Generación de Borrador de Diagnóstico (Automatizado): Crear informe preliminar con métricas, análisis de contenido, FODA básico y puntos de oportunidad.",
+        "Paso 7: Notificación de Tarea (Automatizado): Informar a Analista Web y Social Media Manager sobre nuevo borrador."
+      ],
+      "resultados_salida_esperada": [
+        "Borrador de 'Diagnóstico Inicial de Redes Sociales' (dashboard/exportable) con sección de competencia.",
+        "Notificación interna a roles específicos con enlace al borrador.",
+        "Actualización del estado del prospecto en el sistema a 'Diagnóstico Preliminar Completado'."
+      ],
+      "condiciones_excepciones": [
+        "Si URLs inválidas o sin datos, marcar como 'Requiere Revisión Manual de URLs' y notificar a Activador.",
+        "No requiere accesos sensibles (contraseñas) en esta fase, solo datos públicos."
+      ]
+    }
+    // Aquí se agregarían los detalles para otros prompts como PROMPT_PUBLICIDAD_META_ADS, PROMPT_REDES_CM, PROMPT_UX_UI, PROMPT_ECOMMERCE_MANAGER, etc.
+  ]
+}

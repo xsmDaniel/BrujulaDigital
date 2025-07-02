@@ -1,0 +1,97 @@
+[
+  {
+    "area": "Contabilidad y Finanzas",
+    "prompts": [
+      {
+        "nombre": "Solicitud de Factura",
+        "prompt": "¿Qué servicio requiere facturación? Indica razón social, RFC, monto y datos fiscales. ¿Alguna instrucción adicional para el CFDI?"
+      },
+      {
+        "nombre": "Corrida Financiera de Proyecto",
+        "prompt": "Describe el proyecto, horizonte temporal, monto de inversión, proyección de ingresos y gastos, principales supuestos y ROI mínimo esperado."
+      },
+      {
+        "nombre": "Reporte Mensual Financiero",
+        "prompt": "Solicito reporte financiero de [mes/año]: ingresos, egresos, utilidad, desviaciones vs presupuesto y alertas relevantes."
+      }
+    ]
+  },
+  {
+    "area": "Legal",
+    "prompts": [
+      {
+        "nombre": "Revisión de Contrato de Cliente",
+        "prompt": "Adjunta contrato y condiciones específicas. ¿Hay cláusulas de confidencialidad, penalizaciones o propiedad intelectual a revisar?"
+      },
+      {
+        "nombre": "Solicitud de Aviso de Privacidad",
+        "prompt": "Necesito revisión/actualización del aviso de privacidad para [servicio/plataforma]."
+      }
+    ]
+  },
+  {
+    "area": "Ventas",
+    "prompts": [
+      {
+        "nombre": "Seguimiento a Lead",
+        "prompt": "Registrar nuevo lead. ¿Origen, expectativa del cliente, valor potencial y próxima acción de seguimiento?"
+      },
+      {
+        "nombre": "Solicitud de Argumentario de Venta",
+        "prompt": "¿Para qué producto/servicio necesitas el argumentario? ¿Público objetivo y principales objeciones detectadas?"
+      }
+    ]
+  },
+  {
+    "area": "Recursos Humanos",
+    "prompts": [
+      {
+        "nombre": "Onboarding de Personal",
+        "prompt": "Indica nombre, puesto, área asignada, fecha de ingreso y perfil de mentor asignado. Adjunta checklist de capacitación."
+      },
+      {
+        "nombre": "Evaluación de Desempeño",
+        "prompt": "Evaluar desempeño de [nombre/puesto]: objetivos cumplidos, retos principales, propuestas de mejora."
+      }
+    ]
+  },
+  {
+    "area": "Dirección / Comité",
+    "prompts": [
+      {
+        "nombre": "Revisión Trimestral de KPIs",
+        "prompt": "Solicito revisión de KPIs globales: cumplimiento de objetivos, áreas de oportunidad y sugerencias de ajuste estratégico."
+      }
+    ]
+  },
+  {
+    "area": "Inversión y Proyectos Estratégicos",
+    "prompts": [
+      {
+        "nombre": "Evaluación de Inversión",
+        "prompt": "¿Cuál es el monto requerido, el objetivo del proyecto y el horizonte de recuperación de la inversión? Adjunta corrida financiera."
+      },
+      {
+        "nombre": "Seguimiento a Inversionista",
+        "prompt": "Estimado inversionista, el avance del proyecto [X] es el siguiente: [inserta resumen KPIs, hitos cumplidos, proyecciones]. ¿Desea agendar reunión de resultados?"
+      }
+    ]
+  },
+  {
+    "area": "Economista / Analista Financiero",
+    "prompts": [
+      {
+        "nombre": "Análisis de Entorno",
+        "prompt": "Solicito análisis de entorno económico (macroeconómico, sectorial y digital) relevante para la toma de decisiones de X-S Marketing este trimestre."
+      },
+      {
+        "nombre": "Forecast de Ventas o Utilidades",
+        "prompt": "Calcula el forecast de ventas para los próximos 6/12 meses, considerando estacionalidad, tendencias de mercado y campañas planeadas."
+      },
+      {
+        "nombre": "Recomendaciones Estratégicas",
+        "prompt": "Con base en el análisis de resultados del trimestre y proyecciones económicas, ¿qué ajustes recomienda para maximizar crecimiento y rentabilidad?"
+      }
+    ]
+  }
+]
